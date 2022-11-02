@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Hour 30 Minutes Completed Video</title>
+    <style>
+        .mark_content{
+            font-size: 26px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>1 Hour 30 Minutes Completed Video</h1>
+
+    <!-- <img/> Tag    //////// Starting Video /////////// -->
+    <!-- image tag is used to display images on your web or HTML document . -->
+    <!-- image tag is Also a void Element or self closing tag. -->
+    <!-- <img src="" alt="" title="" /> -->
+
+    <img src="./Assets/Images/istockphoto-1150528651-1024x1024-transformed.jpeg" width="500px" alt="Developer_Image" title="WEb Developer" />
+
+
+
+  
+    <!-- INTERVIEW Q No : 4  -->
+    <!-- Difference B/W realtive path and absolute path ??? -->
+
+    <!-- This is relative path -->
+    <!-- <img src="./Assets/Images/istockphoto-1150528651-1024x1024-transformed.jpeg" width="500px" alt="Developer_Image" title="WEb Developer" />  -->
+
+    <br>
+    <br>
+
+    <!-- This is Absolute path  (Copy Image Address) -->
+    <img  src="https://images.pexels.com/photos/2102413/pexels-photo-2102413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="300px" alt="Developer_Image" title="WEb Developer" /> 
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- PRACTICE SET No : 2  -->
+<!-- How to make an image clickable ??? -->
+
+<br>
+<br>
+
+<a href="https://www.google.com/"  target="_blank" title="Go TO Google">
+    <img src="https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg?auto=compress&cs=tinysrgb&w=600" width="300" alt="">
+</a>
+
+
+
+
+<!-- PICTURE TAG  -->
+<!-- the <picture> element contains zero or more <source> elements
+and one <img> element to offer alternative versions of an image for different display device scenarous .  -->
+<!-- WEbp image format but not Supported All browsers for webp image format -->
+<!-- caniuse.com to search whose browser support webp format .  -->
+<!-- squoosh.app/editor Online Download Webp format image -->
+
+<picture>
+    <source srcset="/imgae.webp">
+    <source srcset="/imgae.png">
+    <img src="/image.jpg" alt="">
+</picture>
+
+
+
+
+
+<!-- FIGURE TAG . -->
+<!-- the <figure> html element represents self-contained content , 
+potentially with an optional caption , which is specified using the <figcaption> element -->
+
+
+<figure>
+    <img src="data:image/jpeg;base64,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" alt="">
+    <figcaption>Best Web Development Coding Videos</figcaption>
+</figure>
+
+
+
+
+                    <!-- HTML SEMANTIC ELEMENTS  -->
+<!-- we have a semantic elements and non-semantic elements -->
+<!-- semantic elements = With a meaning
+     non-semantic elements = elements with no meaning.     -->
+<!-- ///////////////////////////////////////////////////////////////////      -->
+<!-- Semantic Elements                Non-Semantic Elements
+        <header> , <nav>                
+        <section> , <main>              <div> and <span>
+        <table> , <form>
+            <footer> etc .
+-->
+
+
+<!-- Many websites contain HTML Code like <div id="nav"> <div class="header"> <div id="footer" to indicate
+     navigation header and footer .     -->
+
+<!-- in html there are some semantic elements that can be used to define different parts of a
+ web page ex :  <header> <nav> <footer>      -->
+
+
+
+
+
+<!-- INTERVIEW Q NO : 5  -->
+<!-- what is the use of span tag ? -->
+
+<!-- 1) for adding color on text -->
+<!-- 2) for adding background color on text  -->
+
+<mark class="mark_content">
+
+    To See 30 Minutes Content to VIew This Html File Code
+</mark>
+
+<!-- ///////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////END 1 Hour 30 Minutes Video //////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////// -->
+
+</body>
+</html>
